@@ -1,0 +1,52 @@
+#mainContent {
+    border-top: solid 1px black;
+}
+
+.primary-header {
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.current-page {
+    margin-left: 350px;
+}
+
+.main-page-header {
+    padding: 10px 0px;
+    top: 0;
+}
+
+.login {
+    margin-top: 20px;
+    display: grid;
+}
+
+.navbar-brand {
+    padding-right: 40px;
+}
+
+.nav-item {
+    padding-right: 40px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.main-page h3 {
+    text-align: center;
+}
+
+.missing-info {
+    border: red 1px solid;
+    border-radius: 5px;
+}
+
+.quick-post-status {
+    min-width: 750px;
+    background-color: #b5b5b58f; 
+    padding: 10px;
+    margin-left: 100px;
+}

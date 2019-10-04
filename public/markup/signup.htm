@@ -1,0 +1,32 @@
+<div class="container" id="signup">
+    <script src="/scripts/signup.js"></script>
+    <h2>Create New Account</h2>
+    <strong id="loginError" style="color: red; display: none;">You already have an account, please use the forgot password link on the login page.</strong>
+    <div class="row">
+        <div class="col-sm-6">
+            <span><label>Title </label><input class="form-control" name="title" id="title"/></span>
+            <span><label>First Name </label><input class="form-control" name="firstName" id="firstName"/></span>
+            <span><label>Middle Name </label><input class="form-control" name="middleName" id="middleName"/></span>
+            <span><label>Last Name </label><input class="form-control" name="lastName" id="lastName"/></span>
+            <span><label>Industries </label>
+            <select name="industries" id="industries" multiple>
+                <option value="RE">Real Estate</option>
+                <option value="PM">Property Management</option>
+                <option value="HC">Healthcare</option>
+                <option value="CT">Construction</option>
+            </select>
+            </span>
+        </div>
+
+        <div class="col-sm-6">
+            <span><label>Email </label><input class="form-control" name="email" id="email"/></span>
+            <span><label>Username </label><input class="form-control" name="username" id="username"/></span>
+            <span><label>Password </label><input type="password" class="form-control" name="password" id="password"/></span>
+
+        </div>
+
+    </div>
+
+    <a href="#" id="createAccount" class="btn btn-warning float-right">Create Account</a>
+    <div class="clearfix"></div>
+</div>
